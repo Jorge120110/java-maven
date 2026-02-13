@@ -45,7 +45,7 @@ Copia un arreglo y crea un nuevo copiando sus elementos, en caso de ser mas gran
 	int[] CopiaMasEdades = Arrays.copyOf(edades, 10);
 	int[] copiaMenosEdades = Arrays.copyOf(edades, 2);
 
-## 5) Arrays.toString(array)
+### 5) Arrays.toString(array)
 Convierte un arreglo en una cadena de texto con formato para leer.
 
 	int[] calificaciones = {56, 78, 61, 98, 89};
@@ -121,3 +121,8 @@ El ArrayListe usa mas recursos, ya que, al llenarse o añadir nuevos ítems el s
 Es ideal usar el Array cuando ya sabemos el tamaño especifico que necesitaremos, necesitemos ser eficientes o lo llenaremos con grandes cantidades de datos primitivos.
 
 Es ideal usar el ArrayList cuando no sabemos que tamaño tendrá o periódicamente necesitemos operar con su contenido.
+
+
+	Aclaración:
+
+Texto agregado en el .md para agregar estetica y mas información, estan subidos los archivos de la manera pedida junto con el codigo comentado dentro de su respectiva carpeta.
