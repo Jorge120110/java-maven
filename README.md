@@ -4,6 +4,7 @@ En Java, los arreglos son estructuras permiten almacenar varios datos bajo un mi
 
 Ejemplos:
 
+	```java
 	1)	int[] numeros = new int[10];
 
 	2)	String[] amigos = {"juan", "pablo", "jose"};
@@ -18,6 +19,7 @@ Ejemplos:
 ### 1) Arrays.asList(array)
 Sirve para convertir un arreglo en una lista.
 
+	```java
 	String[] juegos = {"CS2", "Minecraft", "Valorant"};
 	List<String> listaJuegos = Arrays.asList(juegos);
 
@@ -26,6 +28,7 @@ Sirve para convertir un arreglo en una lista.
 ### 2) Arrays.sort
 Es un metodo que sirve para ordenar los datos dentro de arreglos.
 
+	```java
 	int[] numeros = {50, 10, 100, 5, 25, 60, 1, 9, 14, 2};
 	Arrays.sort(numeros);
 
@@ -34,13 +37,15 @@ Es un metodo que sirve para ordenar los datos dentro de arreglos.
 ### 3) Arrays.fill(array, valor)
 Asigna un valor especifico a cada valor del arreglo.
 
-	int[] notas = new int[10]
-	Arrays.fill(notas, 0)
+	```java
+	int[] notas = new int[10];
+	Arrays.fill(notas, 0);
 
 ### 4) Arrays.copyOf(original, newLength)
 Copia un arreglo y crea un nuevo copiando sus elementos, en caso de ser mas grande rellena los elementos con 0 y si es mas pequeño, elimina los elementos sobrantes.
 
-	int[] edades = new int{12, 15, 14, 11, 16}
+	```java
+	int[] edades = {12, 15, 14, 11, 16};
 	
 	int[] CopiaMasEdades = Arrays.copyOf(edades, 10);
 	int[] copiaMenosEdades = Arrays.copyOf(edades, 2);
@@ -48,6 +53,7 @@ Copia un arreglo y crea un nuevo copiando sus elementos, en caso de ser mas gran
 ### 5) Arrays.toString(array)
 Convierte un arreglo en una cadena de texto con formato para leer.
 
+	```java
 	int[] calificaciones = {56, 78, 61, 98, 89};
 	String StringResult = Arrays.toString(calificaciones);
 
@@ -61,6 +67,7 @@ Es la forma mas antigua de hacer bucles, normalmente se utiliza usando una varia
 
 Ejemplo:
 
+	```java
 	int[] punteos = {65, 80, 95, 60, 72};
 
 	for (int i = 0; i < punteos.length; i++){
@@ -71,7 +78,8 @@ Ejemplo:
 Utilizado para leer los arreglos en momentos donde no se necesita saber la posición exacta.
 
 Ejemplo:
-	
+
+	```java
 	String[] CPUs = {"i5-12900", "Ryzen9-9950x", "Ryzen5-5600g"};
 
 	for (String CPU : CPUs){
@@ -81,6 +89,7 @@ Ejemplo:
 ### 3) Streams:
 Forma mas moderna y metodo muy potente para procesar grandes cantidades de datos de manera mas limpia usando forEach dentro de su estructura.
 
+	```java
 	int[] notas={22, 20, 85, 94, 57, 68, 89};
 	
 	Arrays.stream(notas).forEach(n -> System.out.println("Nota: " + n));
@@ -126,4 +135,5 @@ Es ideal usar el ArrayList cuando no sabemos que tamaño tendrá o periódicamen
 ## Aclaración:
 
 Texto agregado en el .md para agregar estetica y mas información, estan subidos los archivos de la manera pedida junto con el codigo comentado dentro de su respectiva carpeta.
+
 
