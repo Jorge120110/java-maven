@@ -4,9 +4,9 @@ En Java, los arreglos son estructuras permiten almacenar varios datos bajo un mi
 
 Ejemplos:
 
-1)	int[] numeros = new int[10];
+	1)	int[] numeros = new int[10];
 
-2)	String[] amigos = {"juan", "pablo", "jose"};
+	2)	String[] amigos = {"juan", "pablo", "jose"};
 
 
 ## 2. Metodos y Utilidades pirncipales para Arreglos
@@ -123,6 +123,7 @@ Es ideal usar el Array cuando ya sabemos el tamaño especifico que necesitaremos
 Es ideal usar el ArrayList cuando no sabemos que tamaño tendrá o periódicamente necesitemos operar con su contenido.
 
 
-	Aclaración:
+## Aclaración:
 
 Texto agregado en el .md para agregar estetica y mas información, estan subidos los archivos de la manera pedida junto con el codigo comentado dentro de su respectiva carpeta.
+
