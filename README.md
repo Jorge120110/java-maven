@@ -144,7 +144,7 @@ Se hizo ingenieria inversa al archivo .jar proporcionado (introduction-0.0.1-SNA
 Una carpeta "Array" con las clases:
 
 	BubbbleSort.java
-	MegeSortDemo.java
+	MergeSortDemo.java
 	QuickSort.java
 	SumArray.java
 
@@ -156,15 +156,17 @@ Al inicio del programa usa la funcion "SumArray.java", que toma los elementos de
 	 public int sum(int[] nums) {
      int total = 0;
      for (int n : nums) {
-       total += n;
-     }
+		total += n;
+     	}
      return total;
+	}
+}
 ```
 
 Tambien contiene una carpeta llamada "introduction" el cual tenia el App.java en el que esta definido el programa, en este se usan las funciones:
 	
 	MergeSortDemo 
-Que toma el arreglo "int[] d2 = { 8, 3, 7, 4, 9, 2 };" y lo ordena dividiendolo en secciones hasta llegar a un unico ordenado.
+Que toma el arreglo "int[] d2 = { 8, 3, 7, 4, 9, 2 };" y utiliza la tecnica "divide y venceras" hasta llegar a un unico ordenado.
 
 	BubbleSort
 Toma el arreglo "int[] arr = { 5, 1, 4, 2, 8 };" y lo ordena comparando los items con sus inmediatos.
@@ -175,6 +177,7 @@ Ordena el arreglo "int[] arr1 = { 10, 7, 8, 9, 1, 5 };" dividiendo sus elementos
 ## Aclaración:
 
 Texto agregado en el .md para agregar estetica y mas información, estan subidos los archivos de la manera pedida junto con el codigo comentado dentro de su respectiva carpeta.
+
 
 
 
