@@ -1,4 +1,4 @@
-# Guía Práctica de Arreglos y ArrayList en Java
+# Guía Práctica de Arreglos y ArrayList en Java}
 ## 1. Como se declara un arreglo en java:
 En Java, los arreglos son estructuras permiten almacenar varios datos bajo un mismo nombre, para declararlo se coloca el tipo de dato que almacena seguido de corchetes [], se puede agregar un tamaño especifico para la estructura usando la palabra "new" mas corchetes y el tamaño de la misma o añadiendo directamente sus ítems agregando llaves {} junto con los datos dentro.
 
@@ -137,10 +137,45 @@ Es ideal usar el Array cuando ya sabemos el tamaño especifico que necesitaremos
 
 Es ideal usar el ArrayList cuando no sabemos que tamaño tendrá o periódicamente necesitemos operar con su contenido.
 
+# Ingenieria Inversa
+
+Se hizo ingenieria inversa al archivo .jar proporcionado (introduction-0.0.1-SNAPSHOT.jar) del cual salieron:
+
+Una carpeta "Array" con las clases:
+
+	BubbbleSort.java
+	MegeSortDemo.java
+	QuickSort.java
+	SumArray.java
+
+Al inicio del programa usa la funcion "SumArray.java", que toma los elementos dentro del arreglo de tipo int y suma sus valores.
+
+```java
+ public class SumArray
+ {
+	 public int sum(int[] nums) {
+     int total = 0;
+     for (int n : nums) {
+       total += n;
+     }
+     return total;
+```
+
+Tambien contiene una carpeta llamada "introduction" el cual tenia el App.java en el que esta definido el programa, en este se usan las funciones:
+	
+	MergeSortDemo 
+Que toma el arreglo "int[] d2 = { 8, 3, 7, 4, 9, 2 };" y lo ordena dividiendolo en secciones hasta llegar a un unico ordenado.
+
+	BubbleSort
+Toma el arreglo "int[] arr = { 5, 1, 4, 2, 8 };" y lo ordena comparando los items con sus inmediatos.
+
+	QuickSort
+Ordena el arreglo "int[] arr1 = { 10, 7, 8, 9, 1, 5 };" dividiendo sus elementos, dejando de lado izquiedo los mas pequeños y de lado derecho los mas grandes.
 
 ## Aclaración:
 
 Texto agregado en el .md para agregar estetica y mas información, estan subidos los archivos de la manera pedida junto con el codigo comentado dentro de su respectiva carpeta.
+
 
 
 
